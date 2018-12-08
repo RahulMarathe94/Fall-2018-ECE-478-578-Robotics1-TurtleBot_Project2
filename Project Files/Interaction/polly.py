@@ -11,8 +11,8 @@ p=""
 
 print("Session Created")
 polly_client = boto3.Session(
-        aws_access_key_id="AKIAJOMEDGVCFB46I4SQ",                     
-	    aws_secret_access_key="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",
+        aws_access_key_id="************************",                     
+	    aws_secret_access_key="***********************************************",
 	    region_name='us-west-2').client('polly')
 print("Waiting for Callback")	
 
