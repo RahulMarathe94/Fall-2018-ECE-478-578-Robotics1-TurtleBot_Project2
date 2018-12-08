@@ -1,0 +1,2 @@
+# Project 2 Servo movement
+Both the interacive and robot theatre code utilized the same servo movement code. The servos are subscribed to /lines which is used by robot theatre to determine which voice line to speak. Because interactive mode and Theatre mode are mutually exclusive, we could use the same rostopic /lines in interactions to control the servo movement and have the robot perform the same actions.
