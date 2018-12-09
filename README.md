@@ -2,8 +2,8 @@
 
 ## Project Requirements:
 
-For project 2 we implemented all these functions in ROS :- 
-Different kinds of motions such as Gestures like Bye, Hi,Taunt ,Dancing, Speech Synthesis and Robot Theatre  
+### For project 2 we implemented all these functions in ROS :- 
+#### Different kinds of motions such as Gestures like Bye, Hi,Taunt ,Dancing, Speech Synthesis and Robot Theatre  
 
 Bot can be controlled by publishing to ROS topics
 
