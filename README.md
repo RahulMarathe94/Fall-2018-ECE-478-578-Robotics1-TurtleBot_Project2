@@ -8,16 +8,16 @@ Different kinds of motions such as Gestures like Bye, Hi,Taunt ,Dancing, Speech 
 Bot can be controlled by publishing to ROS topics
 
 ### Node1: 
-####Servos
-responsible for motion: subscribes to a topic /Lines: and moves the robot arm servos
+#### Servos
+Responsible for motion: subscribes to a topic /Lines: and moves the robot arm servos
 
 ### Node2: 
 #### Record: 
-responsible for speech recognition, Recording Audio Input , subscribes to topic /Start_Recording
+Responsible for speech recognition, Recording Audio Input , subscribes to topic /Start_Recording
 
 ### Node3: 
 #### Dialogflow :
-responsible for speech synthesis, subscribes to topic /filename which is the audio input file for detecting intents
+Responsible for speech synthesis, subscribes to topic /filename which is the audio input file for detecting intents
 
 ### Node 4: 
 #### Polly 
